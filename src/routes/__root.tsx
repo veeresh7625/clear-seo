@@ -77,19 +77,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI SEO Analyzer — Full Site Audit" },
+      { title: "AI SEO Analyzer — Full Site Audit & Recommendations" },
       {
         name: "description",
         content:
-          "Analyze any website URL for SEO, performance, accessibility, and security with AI-powered recommendations.",
+          "Analyze any URL for SEO, performance, accessibility, and security. Get an AI-powered audit with prioritized fixes, code examples, and exports.",
       },
-      { property: "og:title", content: "AI SEO Analyzer" },
+      { property: "og:title", content: "AI SEO Analyzer — Full Site Audit & Recommendations" },
       {
         property: "og:description",
-        content: "Full SEO audit for any URL with AI recommendations.",
+        content: "Analyze any URL for SEO, performance, accessibility, and security. Get an AI-powered audit with prioritized fixes, code examples, and exports.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI SEO Analyzer — Full Site Audit & Recommendations" },
+      { name: "twitter:description", content: "Analyze any URL for SEO, performance, accessibility, and security. Get an AI-powered audit with prioritized fixes, code examples, and exports." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2da36e19-7061-4a00-9f1f-444920d07fc4/id-preview-dcff1910--b9f7985e-2527-4046-96ac-1bbdbbc6a713.lovable.app-1784128334956.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2da36e19-7061-4a00-9f1f-444920d07fc4/id-preview-dcff1910--b9f7985e-2527-4046-96ac-1bbdbbc6a713.lovable.app-1784128334956.png" },
     ],
     links: [
       {

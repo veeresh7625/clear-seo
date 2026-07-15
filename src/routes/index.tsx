@@ -42,8 +42,8 @@ export const Route = createFileRoute("/")({
         content:
           "Analyze any URL for SEO, performance, accessibility, and security. Get an AI-powered audit with prioritized fixes, code examples, and exports.",
       },
-      { property: "og:title", content: "AI SEO Analyzer" },
-      { property: "og:description", content: "Full SEO audit for any URL with AI recommendations." },
+      { property: "og:title", content: "AI SEO Analyzer — Full Site Audit & Recommendations" },
+      { property: "og:description", content: "Analyze any URL for SEO, performance, accessibility, and security. Get an AI-powered audit with prioritized fixes, code examples, and exports." },
     ],
   }),
   component: Index,
